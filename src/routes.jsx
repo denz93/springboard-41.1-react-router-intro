@@ -45,10 +45,9 @@ const router = createBrowserRouter([
     ]
   }
  
-])
-
+], {basename: import.meta.env.BASE_URL})
 export function MyRouter({children}) {
-  return <RouterProvider router={router}>
+  return <RouterProvider  router={router}>
     {children}
   </RouterProvider>
 }
