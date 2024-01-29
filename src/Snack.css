@@ -1,0 +1,21 @@
+.snack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.snack h1 {
+  text-transform: capitalize;
+}
+
+.image-list {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+
+}
+
+.image-list img {
+  width: 100px;
+  height: auto;
+}
